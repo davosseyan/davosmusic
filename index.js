@@ -94,10 +94,10 @@ client.on(`message`, async (message) => {
     .setTimestamp()
     .setDescription(`
 
-[Support](https://discord.gg/5aENC4fNVj) - [Invite](https://discord.com/api/oauth2/authorize?client_id=803965149941071875&permissions=8&scope=bot)
+[Support](https://discord.gg/PqBjHq8Nk9) - [Invite](https://discord.com/api/oauth2/authorize?client_id=728368917487026228&permissions=8&scope=bot)
 
 **Developers Bot** :
-CATATA#8788 - AVYAR#4293
+𝙽⁵¹A7a Ablaxyyy💉ᵈʳ#7992 - Davos#5555
 
 **Set Status** :
 Online
@@ -106,7 +106,7 @@ Online
 25/1/2021
 
 **Prefix Bot** :
-c?
+a!
 
 `)
 
@@ -125,12 +125,12 @@ c?
     .setDescription (`
 <:emoji_65:815251304070905857> Links
 
-[Support](https://discord.gg/5aENC4fNVj)
+[Support](https://discord.gg/PqBjHq8Nk9)
 -
-[Invite](https://discord.com/api/oauth2/authorize?client_id=803965149941071875&permissions=8&scope=bot)`)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=728368917487026228&permissions=8&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
-    .setTitle(`**Support Zooya**`) 
+    .setTitle(`**Support Music**`) 
     .setThumbnail(`https://media.discordapp.net/attachments/809000331807424512/814581827192881152/image0.png`)
     .setTimestamp()
     
