@@ -20,18 +20,18 @@ module.exports = {
     .setDescription(`
 
 **User Commands**
-\`c?invite\` - \`c?support\` - \`c?about\`
-\`c?ping\` - \`c?prefix\` - \`c?uptime\`
+\`a!invite\` - \`a!support\` - \`a!about\`
+\`a!ping\` - \`a!prefix\` - \`a!uptime\`
 
 **Music Commands**
-\`c?play\` - \`c?skip\` - \`c?skipto\`
-\`c?stop\` - \`c?volume\` - \`c?nowplaying\`
-\`c?shuffle\` - \`c?search\` - \`c?resume\`
-\`c?remove\` - \`c?queue\` - \`c?filter\`
-\`c?loop\` - \`c?lyrics\` - \`c?radio\`
+\`a!play\` - \`a!skip\` - \`a!skipto\`
+\`a!stop\` - \`a!volume\` - \`a!nowplaying\`
+\`a!shuffle\` - \`a!search\` - \`a!resume\`
+\`a!remove\` - \`a!queue\` - \`a!filter\`
+\`a!loop\` - \`a!lyrics\` - \`a!radio\`
 
 **Links**
-[Support](https://discord.gg/5aENC4fNVj) - [Invite](https://discord.com/api/oauth2/authorize?client_id=803965149941071875&permissions=8&scope=bot)
+[Support](https://discord.gg/PqBjHq8Nk9) - [Invite](https://discord.com/api/oauth2/authorize?client_id=728368917487026228&permissions=8&scope=bot)
 `)
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
