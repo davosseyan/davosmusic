@@ -15,8 +15,8 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-    .setThumbnail(`https://cdn.discordapp.com/attachments/827276822382116895/827587022809333771/image0.png `)
-    .setTitle(`**Calli Help**`)
+    .setThumbnail(`https://cdn.discordapp.com/attachments/827276822382116895/827587022809333771/image0.png`)
+    .setTitle(`**Davos Help**`)
     .setDescription(`
 
 **User Commands**
