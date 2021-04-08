@@ -20,7 +20,7 @@ module.exports = {
     .setDescription(`
 
 **User Commands**
-\`%invite\` - \`%support\` - %a!about\`
+\`%invite\` - \`%support\` - \`%a!about\`
 \`%ping\` - \`%prefix\` - \`%uptime\`
 
 **Music Commands**
@@ -31,12 +31,12 @@ module.exports = {
 \`%loop\` - \`%lyrics\` - \`%radio\`
 
 **Links**
-[Support](https://discord.gg/eQggrrcMyr) - [Invite](https://discord.com/oauth2/authorize?client_id=823845198559051806&permissions=70282305&scope=bot)
+[Support](https://discord.gg/nhxxXQRNMu) - [Invite](https://discord.com/oauth2/authorize?client_id=823845198559051806&permissions=70282305&scope=bot)
 `)
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("YELLOW");
-   message.react("<:emoji_74:815251307635015731>")
+   message.react("✅")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
