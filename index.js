@@ -88,16 +88,14 @@ client.on(`message`, async (message) => {
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("YELLOW")
-    .setAuthor("About Zooya Bot.", "https://media.discordapp.net/attachments/815252825012568085/815266512414703656/image0.png")
-    .setThumbnail(`https://media.discordapp.net/attachments/815252825012568085/815266512414703656/image0.png `)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setTimestamp()
     .setDescription(`
 
-[Support](https://discord.gg/PqBjHq8Nk9) - [Invite](https://discord.com/api/oauth2/authorize?client_id=728368917487026228&permissions=8&scope=bot)
+[Support](https://discord.gg/nhxxXQRNMu) - [Invite](https://discord.com/oauth2/authorize?client_id=823845198559051806&permissions=70282305&scope=bot)
 
 **Developers Bot** :
-𝙽⁵¹A7a Ablaxyyy💉ᵈʳ#7992 - Davos#5555
+!  𝐉𝐊・𝐑𝐄𝐃 𝐙𝐎𝐍𝐄#1875 - Davos#5555
 
 **Set Status** :
 Online
@@ -106,13 +104,13 @@ Online
 25/1/2021
 
 **Prefix Bot** :
-a!
+%
 
 `)
 
     //send the Message
     message.channel.send(embed)
-    message.react("<:emoji_74:815251307635015731>")
+    message.react("✅")
   } 
 
 //An suuport announcement for everyone but no one knows so fine ^w^
@@ -123,20 +121,19 @@ a!
     const embed = new Discord.MessageEmbed()
     .setColor("YELLOW")
     .setDescription (`
-<:emoji_65:815251304070905857> Links
+🔗 Links
 
-[Support](https://discord.gg/PqBjHq8Nk9)
+[Support](https://discord.gg/nhxxXQRNMu)
 -
-[Invite](https://discord.com/api/oauth2/authorize?client_id=728368917487026228&permissions=8&scope=bot)`)
+[Invite](https://discord.com/oauth2/authorize?client_id=823845198559051806&permissions=70282305&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
     .setTitle(`**Support Music**`) 
-    .setThumbnail(`https://media.discordapp.net/attachments/809000331807424512/814581827192881152/image0.png`)
     .setTimestamp()
     
     //send the Message
     message.channel.send(embed)
-    message.react("<:emoji_74:815251307635015731>")
+    message.react("✅")
   }
 
 
@@ -178,7 +175,7 @@ a!
      const timeLeft = (expirationTime - now) / 1000;
      return message.reply(
       new MessageEmbed().setColor("YELLOW")
-      .setTitle(`<:emoji_74:815251307635015731>\`Please wait\` \`${timeLeft.toFixed(1)} seconds\` \`before reusing the\` \`${prefix}${command.name}\` `)    
+      .setTitle(`⏱ \`Please wait\` \`${timeLeft.toFixed(1)} seconds\` \`before reusing the\` \`${prefix}${command.name}\` `)    
      );
    }
  }
