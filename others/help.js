@@ -16,22 +16,22 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(`https://cdn.discordapp.com/attachments/827276822382116895/827587022809333771/image0.png`)
-    .setTitle(`**Davos Help**`)
+    .setTitle(`**Red Zone Help**`)
     .setDescription(`
 
 **User Commands**
-\`a!invite\` - \`a!support\` - \`a!about\`
-\`a!ping\` - \`a!prefix\` - \`a!uptime\`
+\`%invite\` - \`%support\` - %a!about\`
+\`%ping\` - \`%prefix\` - \`%uptime\`
 
 **Music Commands**
-\`a!play\` - \`a!skip\` - \`a!skipto\`
-\`a!stop\` - \`a!volume\` - \`a!nowplaying\`
-\`a!shuffle\` - \`a!search\` - \`a!resume\`
-\`a!remove\` - \`a!queue\` - \`a!filter\`
-\`a!loop\` - \`a!lyrics\` - \`a!radio\`
+\`%play\` - \`%skip\` - \`%skipto\`
+\`%stop\` - \`%volume\` - \`%nowplaying\`
+\`%shuffle\` - \`%search\` - \`%resume\`
+\`%remove\` - \`%queue\` - \`%filter\`
+\`%loop\` - \`%lyrics\` - \`%radio\`
 
 **Links**
-[Support](https://discord.gg/PqBjHq8Nk9) - [Invite](https://discord.com/api/oauth2/authorize?client_id=728368917487026228&permissions=8&scope=bot)
+[Support](https://discord.gg/eQggrrcMyr) - [Invite](https://discord.com/oauth2/authorize?client_id=823845198559051806&permissions=70282305&scope=bot)
 `)
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
